@@ -4,6 +4,7 @@ pandas==2.2.2
 scikit-learn==1.4.2
 matplotlib==3.8.4
 seaborn==0.13.2
+scipy==1.12.0
 
 # NLP utilities
 nltk==3.8.1
@@ -11,17 +12,30 @@ wordcloud==1.9.3
 
 # Deep learning
 torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
 torchtext==0.18.0
 
-# Transformers
+# Transformers (BERT / DistilBERT)
 transformers==4.41.2
 datasets==2.19.1
 accelerate==0.30.0
 
-# Notebooks
+# Tokenization / utilities
+regex==2024.5.15
+
+# Progress & utilities
+tqdm==4.66.4
+joblib==1.4.2
+
+# Jupyter / notebooks
 jupyter==1.0.0
 ipykernel==6.29.4
-tqdm==4.66.4
 
-# Optional: Kaggle download
+# Optional Kaggle dataset download
 kaggle==1.6.12
+
+# Development (optional)
+black==24.4.2
+flake8==7.0.0
+pytest==8.2.0
